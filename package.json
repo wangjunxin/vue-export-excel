@@ -1,0 +1,16 @@
+{
+    "name": "export-excel",
+    "version": "1.0.4",
+    "description": "excel文件导出",
+    "main": "index.js",
+    "author": "wangjunxin",
+    "dependencies": {
+      "xlsx": "^0.14.3",
+      "file-saver": "^2.0.2",
+      "core-js": "^2.6.9"
+    },
+    "devDependencies": {
+      "script-loader": "^0.7.2"
+    },
+    "license": "ISC"
+  }
