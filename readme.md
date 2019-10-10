@@ -1,13 +1,8 @@
 # JSON TO Excel
-##### install with npm 
-npm registry: http://npmjs.aiwaystack.com:4873/#/
 
-```
-$ npm install @aiways/export-excel
-```
 ##### 使用
 ```
-import ExportExcel from '@aiways/export-excel'
+import ExportExcel from 'export-excel'
 Vue.use(ExportExcel)
 
 this.$toExcel({ tHeader, filterVal, list, title: 'title', merges })
